@@ -7,6 +7,8 @@ users:
 ## Full list of pillar values
   buser:
     fullname: B User
+    password: HASHED_PASSWORD
+    enforce_password: False
     sudouser: True
     sudo_rules: 
       - buser ALL=(root) /usr/bin/find
